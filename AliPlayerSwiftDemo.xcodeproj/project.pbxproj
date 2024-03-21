@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84486A862BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486A852BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift */; };
+		84486A882BABEB49001755C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486A872BABEB49001755C1 /* ContentView.swift */; };
+		84486A8A2BABEB4E001755C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84486A892BABEB4E001755C1 /* Assets.xcassets */; };
+		84486A8D2BABEB4E001755C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84486A8C2BABEB4E001755C1 /* Preview Assets.xcassets */; };
+		84486A972BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486A962BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift */; };
+		84486AA12BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486AA02BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift */; };
+		84486AA32BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486AA22BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84486A932BABEB4E001755C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84486A7A2BABEB49001755C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84486A812BABEB49001755C1;
+			remoteInfo = AliPlayerSwiftDemo;
+		};
+		84486A9D2BABEB4F001755C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84486A7A2BABEB49001755C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84486A812BABEB49001755C1;
+			remoteInfo = AliPlayerSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84486A822BABEB49001755C1 /* AliPlayerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliPlayerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84486A852BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoApp.swift; sourceTree = "<group>"; };
+		84486A872BABEB49001755C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84486A892BABEB4E001755C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84486A8C2BABEB4E001755C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84486A922BABEB4E001755C1 /* AliPlayerSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPlayerSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84486A962BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoTests.swift; sourceTree = "<group>"; };
+		84486A9C2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPlayerSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84486AA02BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		84486AA22BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84486A7F2BABEB49001755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A8F2BABEB4E001755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A992BABEB4F001755C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84486A792BABEB49001755C1 = {
+			isa = PBXGroup;
+			children = (
+				84486A842BABEB49001755C1 /* AliPlayerSwiftDemo */,
+				84486A952BABEB4E001755C1 /* AliPlayerSwiftDemoTests */,
+				84486A9F2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests */,
+				84486A832BABEB49001755C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84486A832BABEB49001755C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84486A822BABEB49001755C1 /* AliPlayerSwiftDemo.app */,
+				84486A922BABEB4E001755C1 /* AliPlayerSwiftDemoTests.xctest */,
+				84486A9C2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84486A842BABEB49001755C1 /* AliPlayerSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84486A852BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift */,
+				84486A872BABEB49001755C1 /* ContentView.swift */,
+				84486A892BABEB4E001755C1 /* Assets.xcassets */,
+				84486A8B2BABEB4E001755C1 /* Preview Content */,
+			);
+			path = AliPlayerSwiftDemo;
+			sourceTree = "<group>";
+		};
+		84486A8B2BABEB4E001755C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84486A8C2BABEB4E001755C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84486A952BABEB4E001755C1 /* AliPlayerSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84486A962BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift */,
+			);
+			path = AliPlayerSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		84486A9F2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84486AA02BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift */,
+				84486AA22BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift */,
+			);
+			path = AliPlayerSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84486A812BABEB49001755C1 /* AliPlayerSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84486AA62BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemo" */;
+			buildPhases = (
+				84486A7E2BABEB49001755C1 /* Sources */,
+				84486A7F2BABEB49001755C1 /* Frameworks */,
+				84486A802BABEB49001755C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliPlayerSwiftDemo;
+			productName = AliPlayerSwiftDemo;
+			productReference = 84486A822BABEB49001755C1 /* AliPlayerSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84486A912BABEB4E001755C1 /* AliPlayerSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84486AA92BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemoTests" */;
+			buildPhases = (
+				84486A8E2BABEB4E001755C1 /* Sources */,
+				84486A8F2BABEB4E001755C1 /* Frameworks */,
+				84486A902BABEB4E001755C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84486A942BABEB4E001755C1 /* PBXTargetDependency */,
+			);
+			name = AliPlayerSwiftDemoTests;
+			productName = AliPlayerSwiftDemoTests;
+			productReference = 84486A922BABEB4E001755C1 /* AliPlayerSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84486A9B2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84486AAC2BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemoUITests" */;
+			buildPhases = (
+				84486A982BABEB4F001755C1 /* Sources */,
+				84486A992BABEB4F001755C1 /* Frameworks */,
+				84486A9A2BABEB4F001755C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84486A9E2BABEB4F001755C1 /* PBXTargetDependency */,
+			);
+			name = AliPlayerSwiftDemoUITests;
+			productName = AliPlayerSwiftDemoUITests;
+			productReference = 84486A9C2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84486A7A2BABEB49001755C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					84486A812BABEB49001755C1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					84486A912BABEB4E001755C1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84486A812BABEB49001755C1;
+					};
+					84486A9B2BABEB4F001755C1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84486A812BABEB49001755C1;
+					};
+				};
+			};
+			buildConfigurationList = 84486A7D2BABEB49001755C1 /* Build configuration list for PBXProject "AliPlayerSwiftDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84486A792BABEB49001755C1;
+			productRefGroup = 84486A832BABEB49001755C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84486A812BABEB49001755C1 /* AliPlayerSwiftDemo */,
+				84486A912BABEB4E001755C1 /* AliPlayerSwiftDemoTests */,
+				84486A9B2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84486A802BABEB49001755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84486A8D2BABEB4E001755C1 /* Preview Assets.xcassets in Resources */,
+				84486A8A2BABEB4E001755C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A902BABEB4E001755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A9A2BABEB4F001755C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84486A7E2BABEB49001755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84486A882BABEB49001755C1 /* ContentView.swift in Sources */,
+				84486A862BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A8E2BABEB4E001755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84486A972BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84486A982BABEB4F001755C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84486AA12BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift in Sources */,
+				84486AA32BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84486A942BABEB4E001755C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84486A812BABEB49001755C1 /* AliPlayerSwiftDemo */;
+			targetProxy = 84486A932BABEB4E001755C1 /* PBXContainerItemProxy */;
+		};
+		84486A9E2BABEB4F001755C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84486A812BABEB49001755C1 /* AliPlayerSwiftDemo */;
+			targetProxy = 84486A9D2BABEB4F001755C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84486AA42BABEB4F001755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84486AA52BABEB4F001755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84486AA72BABEB4F001755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AliPlayerSwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84486AA82BABEB4F001755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AliPlayerSwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84486AAA2BABEB4F001755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliPlayerSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AliPlayerSwiftDemo";
+			};
+			name = Debug;
+		};
+		84486AAB2BABEB4F001755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliPlayerSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AliPlayerSwiftDemo";
+			};
+			name = Release;
+		};
+		84486AAD2BABEB4F001755C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliPlayerSwiftDemo;
+			};
+			name = Debug;
+		};
+		84486AAE2BABEB4F001755C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ79P368UQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AliPlayerSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84486A7D2BABEB49001755C1 /* Build configuration list for PBXProject "AliPlayerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84486AA42BABEB4F001755C1 /* Debug */,
+				84486AA52BABEB4F001755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84486AA62BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84486AA72BABEB4F001755C1 /* Debug */,
+				84486AA82BABEB4F001755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84486AA92BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84486AAA2BABEB4F001755C1 /* Debug */,
+				84486AAB2BABEB4F001755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84486AAC2BABEB4F001755C1 /* Build configuration list for PBXNativeTarget "AliPlayerSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84486AAD2BABEB4F001755C1 /* Debug */,
+				84486AAE2BABEB4F001755C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84486A7A2BABEB49001755C1 /* Project object */;
+}
