@@ -14,6 +14,14 @@
 		84486A972BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486A962BABEB4E001755C1 /* AliPlayerSwiftDemoTests.swift */; };
 		84486AA12BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486AA02BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift */; };
 		84486AA32BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486AA22BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift */; };
+		84486AB22BABEFC7001755C1 /* alivcffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84486AB12BABEFC7001755C1 /* alivcffmpeg.framework */; };
+		84486AB32BABEFC7001755C1 /* alivcffmpeg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84486AB12BABEFC7001755C1 /* alivcffmpeg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84486AB62BABEFD6001755C1 /* AliyunPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84486AB52BABEFD6001755C1 /* AliyunPlayer.framework */; };
+		84486AB72BABEFD6001755C1 /* AliyunPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84486AB52BABEFD6001755C1 /* AliyunPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84486ABB2BABF135001755C1 /* cert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 84486ABA2BABF135001755C1 /* cert.crt */; };
+		84486ABE2BABF16A001755C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486ABC2BABF16A001755C1 /* AppDelegate.swift */; };
+		84486ABF2BABF16A001755C1 /* OrientationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486ABD2BABF16A001755C1 /* OrientationController.swift */; };
+		84486AC12BABF217001755C1 /* AliPlayerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84486AC02BABF217001755C1 /* AliPlayerWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84486AB42BABEFC7001755C1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84486AB32BABEFC7001755C1 /* alivcffmpeg.framework in Embed Frameworks */,
+				84486AB72BABEFD6001755C1 /* AliyunPlayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		84486A822BABEB49001755C1 /* AliPlayerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliPlayerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84486A852BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoApp.swift; sourceTree = "<group>"; };
@@ -44,6 +67,13 @@
 		84486A9C2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPlayerSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84486AA02BABEB4F001755C1 /* AliPlayerSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		84486AA22BABEB4F001755C1 /* AliPlayerSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84486AAF2BABEBC3001755C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84486AB12BABEFC7001755C1 /* alivcffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = alivcffmpeg.framework; path = Frameworks/alivcffmpeg.framework; sourceTree = "<group>"; };
+		84486AB52BABEFD6001755C1 /* AliyunPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunPlayer.framework; path = Frameworks/AliyunPlayer.framework; sourceTree = "<group>"; };
+		84486ABA2BABF135001755C1 /* cert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.crt; sourceTree = "<group>"; };
+		84486ABC2BABF16A001755C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84486ABD2BABF16A001755C1 /* OrientationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationController.swift; sourceTree = "<group>"; };
+		84486AC02BABF217001755C1 /* AliPlayerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPlayerWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84486AB22BABEFC7001755C1 /* alivcffmpeg.framework in Frameworks */,
+				84486AB62BABEFD6001755C1 /* AliyunPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +110,7 @@
 				84486A952BABEB4E001755C1 /* AliPlayerSwiftDemoTests */,
 				84486A9F2BABEB4F001755C1 /* AliPlayerSwiftDemoUITests */,
 				84486A832BABEB49001755C1 /* Products */,
+				84486AB02BABEFC6001755C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +127,13 @@
 		84486A842BABEB49001755C1 /* AliPlayerSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84486ABA2BABF135001755C1 /* cert.crt */,
+				84486AAF2BABEBC3001755C1 /* Info.plist */,
 				84486A852BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift */,
+				84486AC02BABF217001755C1 /* AliPlayerWrapper.swift */,
+				84486ABC2BABF16A001755C1 /* AppDelegate.swift */,
 				84486A872BABEB49001755C1 /* ContentView.swift */,
+				84486ABD2BABF16A001755C1 /* OrientationController.swift */,
 				84486A892BABEB4E001755C1 /* Assets.xcassets */,
 				84486A8B2BABEB4E001755C1 /* Preview Content */,
 			);
@@ -127,6 +165,15 @@
 			path = AliPlayerSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		84486AB02BABEFC6001755C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84486AB52BABEFD6001755C1 /* AliyunPlayer.framework */,
+				84486AB12BABEFC7001755C1 /* alivcffmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +184,7 @@
 				84486A7E2BABEB49001755C1 /* Sources */,
 				84486A7F2BABEB49001755C1 /* Frameworks */,
 				84486A802BABEB49001755C1 /* Resources */,
+				84486AB42BABEFC7001755C1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84486ABB2BABF135001755C1 /* cert.crt in Resources */,
 				84486A8D2BABEB4E001755C1 /* Preview Assets.xcassets in Resources */,
 				84486A8A2BABEB4E001755C1 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84486ABE2BABF16A001755C1 /* AppDelegate.swift in Sources */,
 				84486A882BABEB49001755C1 /* ContentView.swift in Sources */,
+				84486ABF2BABF16A001755C1 /* OrientationController.swift in Sources */,
+				84486AC12BABF217001755C1 /* AliPlayerWrapper.swift in Sources */,
 				84486A862BABEB49001755C1 /* AliPlayerSwiftDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,24 +471,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AliPlayerSwiftDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = KJ79P368UQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliPlayerSwiftDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,24 +507,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AliPlayerSwiftDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = KJ79P368UQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliPlayerSwiftDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.spacegs.ios.AliPlayerSwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
